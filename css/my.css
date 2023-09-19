@@ -1,0 +1,98 @@
+@font-face {
+    font-family: yekan;
+    src: url(../font/iranyekanwebbold.ttf);
+}
+
+*{
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    background:url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.line1 , .line2 , .line3{
+    width: 16px;
+    margin: 4px;
+    height: 2px;
+    transition: all 0.4s;
+}
+
+.my-button{
+    display: flex;
+    transition: all 0.2s;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+.my-button:focus{
+    border: 3px solid #6c757d;
+}
+
+.my-nav{
+    transition: all 0.4s;
+    padding-top: 20px;
+}
+
+.change-navbar{
+    padding: 5px 30px;
+    background: #212529;
+}
+
+.my-li{
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.my-li:hover{
+    color: #ffc800;
+}
+
+@media(max-width : 768px){
+    .my-nav{
+    background: #212529;
+    padding: 20px;
+    }
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-btn{
+    padding: 15px 20px;
+    font-size: 25px;
+}
+/*header*/
+/*services*/
+.services-icon1{
+    padding: 30px 35px;
+}
+.services-icon2{
+    padding: 30px 25px;
+}
+.services-icon3{
+    padding: 30px 25px;
+}
+/*services*/
