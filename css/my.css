@@ -18,7 +18,7 @@ a:hover{
 
 /*header*/
 header{
-    background:url(../img/header-bg.jpg);
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)),url(../img/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -80,10 +80,6 @@ header{
     transform: translate(-50%, -50%);
 }
 
-.banner-btn{
-    padding: 15px 20px;
-    font-size: 25px;
-}
 /*header*/
 /*services*/
 .services-icon1{
@@ -96,3 +92,51 @@ header{
     padding: 30px 25px;
 }
 /*services*/
+/*cards*/
+.card-bg{
+    background-color: #f8f9fa;
+}
+.my-card{
+    border: 0;
+    max-width: 150%;
+}
+
+.my-card-img{
+    
+}
+
+.my-card-img:hover{
+    
+}
+
+.my-img{
+    width: 100%;
+}
+
+.my-modal{
+    max-width: 100%;
+}
+
+/*cards*/
+/*contact*/
+.contact{
+    background-color:#212529;
+    background-image: url(../img/map-image.png);
+}
+
+.input{
+    padding: 30px;
+}
+
+.input:focus{
+    border: none;
+    box-shadow: none;
+    border: 1px solid #ffc800;
+}
+
+.input-msg:focus{
+    border: none;
+    box-shadow: none;
+    border: 1px solid #ffc800;
+}
+/*contact*/
